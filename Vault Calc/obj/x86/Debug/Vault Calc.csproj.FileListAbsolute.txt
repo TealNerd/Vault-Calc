@@ -1,0 +1,13 @@
+C:\Users\Gabe\AppData\Local\Temporary Projects\Vault Calc\bin\Debug\Vault Calc.exe
+C:\Users\Gabe\AppData\Local\Temporary Projects\Vault Calc\bin\Debug\Vault Calc.pdb
+C:\Users\Gabe\AppData\Local\Temporary Projects\Vault Calc\obj\x86\Debug\MainWindow.baml
+C:\Users\Gabe\AppData\Local\Temporary Projects\Vault Calc\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Gabe\AppData\Local\Temporary Projects\Vault Calc\obj\x86\Debug\App.g.cs
+C:\Users\Gabe\AppData\Local\Temporary Projects\Vault Calc\obj\x86\Debug\Vault Calc_MarkupCompile.cache
+C:\Users\Gabe\AppData\Local\Temporary Projects\Vault Calc\obj\x86\Debug\Vault Calc.g.resources
+C:\Users\Gabe\AppData\Local\Temporary Projects\Vault Calc\obj\x86\Debug\Vault_Calc.Properties.Resources.resources
+C:\Users\Gabe\AppData\Local\Temporary Projects\Vault Calc\obj\x86\Debug\Vault Calc.csproj.GenerateResource.Cache
+C:\Users\Gabe\AppData\Local\Temporary Projects\Vault Calc\obj\x86\Debug\Vault Calc.exe
+C:\Users\Gabe\AppData\Local\Temporary Projects\Vault Calc\obj\x86\Debug\Vault Calc.pdb
+C:\Users\Gabe\Desktop\C#\Vault Calc\Vault Calc\obj\x86\Debug\Vault Calc.exe
+C:\Users\Gabe\Desktop\C#\Vault Calc\Vault Calc\obj\x86\Debug\Vault Calc.pdb

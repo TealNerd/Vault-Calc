@@ -1,0 +1,13 @@
+c:\users\gabe\documents\visual studio 2013\Projects\Vault Calculator\Vault Calculator\bin\Debug\Vault Calculator.exe.config
+c:\users\gabe\documents\visual studio 2013\Projects\Vault Calculator\Vault Calculator\bin\Debug\Vault Calculator.exe
+c:\users\gabe\documents\visual studio 2013\Projects\Vault Calculator\Vault Calculator\bin\Debug\Vault Calculator.pdb
+c:\users\gabe\documents\visual studio 2013\Projects\Vault Calculator\Vault Calculator\obj\Debug\Vault Calculator.csprojResolveAssemblyReference.cache
+c:\users\gabe\documents\visual studio 2013\Projects\Vault Calculator\Vault Calculator\obj\Debug\MainWindow.baml
+c:\users\gabe\documents\visual studio 2013\Projects\Vault Calculator\Vault Calculator\obj\Debug\MainWindow.g.cs
+c:\users\gabe\documents\visual studio 2013\Projects\Vault Calculator\Vault Calculator\obj\Debug\App.g.cs
+c:\users\gabe\documents\visual studio 2013\Projects\Vault Calculator\Vault Calculator\obj\Debug\Vault Calculator_MarkupCompile.cache
+c:\users\gabe\documents\visual studio 2013\Projects\Vault Calculator\Vault Calculator\obj\Debug\Vault Calculator.g.resources
+c:\users\gabe\documents\visual studio 2013\Projects\Vault Calculator\Vault Calculator\obj\Debug\Vault_Calculator.Properties.Resources.resources
+c:\users\gabe\documents\visual studio 2013\Projects\Vault Calculator\Vault Calculator\obj\Debug\Vault Calculator.csproj.GenerateResource.Cache
+c:\users\gabe\documents\visual studio 2013\Projects\Vault Calculator\Vault Calculator\obj\Debug\Vault Calculator.exe
+c:\users\gabe\documents\visual studio 2013\Projects\Vault Calculator\Vault Calculator\obj\Debug\Vault Calculator.pdb

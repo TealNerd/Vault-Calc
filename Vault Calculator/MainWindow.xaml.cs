@@ -36,6 +36,7 @@ namespace Vault_Calculator
 
             v.x = Convert.ToInt32(Head.Text);
             v.y = Convert.ToInt32(Tail.Text);
+            v.checkDouble = check.IsChecked.Value;
 
             Cost.Text = Convert.ToString(v.Cost());
         }
@@ -51,6 +52,11 @@ namespace Vault_Calculator
         }
 
         private void TextBox_TextChanged_2(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void CheckBox_Checked(object sender, RoutedEventArgs e)
         {
 
         }

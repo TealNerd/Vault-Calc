@@ -17,18 +17,12 @@ namespace Vault_Calculator
 
         public int Cost()
         {
-            if (_layer < 1)
-                return 0;
-            else if (_layer == 1)
-                return 1;
-            return (int)(((2 * _layer * _layer * _layer) + _layer) / 3.0) + Convert.ToInt32(_x!=_y) * Diff(_layer) + Convert.ToInt32(_checkDouble)*(2 * ((_layer-1) * (_layer-1) + (_layer-1)) + 1);
+            return (_layer > 1)?(int)(((2 * _layer * _layer * _layer) + _layer) / 3.0) + ((_x!=_y)? Diff(_layer):0) + ((_checkDouble)? (2 * ((_layer-1) * (_layer-1) + (_layer-1)) + 1):0):1;
         }
 
         public int Diff(int l)
         {
-            if (l < _y)
-                return 0;
-            return 2 * (l - _y) * (l - _y) + 2 * (l - _y) + 1 + Diff(l - _x);
+            return (l >= _y)?2 * (l - _y) * (l - _y) + 2 * (l - _y) + 1 + Diff(l - _x):0;
         }
     }
 }

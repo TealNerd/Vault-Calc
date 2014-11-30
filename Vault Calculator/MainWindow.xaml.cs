@@ -39,6 +39,11 @@ namespace Vault_Calculator
             v.checkDouble = check.IsChecked.Value;
 
             Cost.Text = Convert.ToString(v.Cost());
+            int.TryParse(Speed.Text, out o);
+            X_Time.Text = Convert.ToString(v.X_time(o));
+            Y_Time.Text = Convert.ToString(v.Y_time(o));
+            X.Text = Convert.ToString(v.X_layer());
+            Y.Text = Convert.ToString(v.Y_layer());
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
@@ -57,6 +62,31 @@ namespace Vault_Calculator
         }
 
         private void CheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void TextBox_TextChanged_3(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void TextBox_TextChanged_4(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void TextBox_TextChanged_5(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void TextBox_TextChanged_6(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void TextBox_TextChanged_7(object sender, TextChangedEventArgs e)
         {
 
         }

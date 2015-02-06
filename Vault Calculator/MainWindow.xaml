@@ -20,12 +20,15 @@
         <TextBox x:Name="Y_Time" IsReadOnly="True" HorizontalAlignment="Left" Height="23" Margin="11,245,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged_4" Text="0" TextAlignment="Center"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,224,0,0" TextWrapping="Wrap" Text="Time to break Y (Minutes)" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="11,175,0,0" TextWrapping="Wrap" Text="Time to break X (Minutes)" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="11,126,0,0" TextWrapping="Wrap" Text="Efficenty" VerticalAlignment="Top" RenderTransformOrigin="-1.156,-2.882"/>
+        <TextBlock HorizontalAlignment="Left" Margin="11,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-1.156,-2.882"><Run Text="Efficency"/><LineBreak/><Run/><LineBreak/><Run/></TextBlock>
         <TextBox x:Name="Speed" HorizontalAlignment="Left" Height="23" Margin="10,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="46" TextChanged="TextBox_TextChanged_5" RenderTransformOrigin="0.5,1.826" Text="0" TextAlignment="Center"/>
         <TextBox IsReadOnly="True" x:Name="X" HorizontalAlignment="Left" Height="42" Margin="136,297,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="39" TextAlignment="Center" TextChanged="TextBox_TextChanged_6" FontSize="25" Text="0"/>
         <TextBox IsReadOnly="True" x:Name="Y" HorizontalAlignment="Left" Height="42" Margin="180,297,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="39" RenderTransformOrigin="1.667,0.167" FontSize="25" TextAlignment="Center" TextChanged="TextBox_TextChanged_7" Text="0"/>
         <TextBlock HorizontalAlignment="Left" Margin="136,273,0,0" TextWrapping="Wrap" Text="Width" VerticalAlignment="Top" Width="39" Height="24" RenderTransformOrigin="0.795,1"/>
         <TextBlock HorizontalAlignment="Left" Margin="176,273,0,0" TextWrapping="Wrap" Text="Height" VerticalAlignment="Top" Width="39" Height="24" RenderTransformOrigin="0.795,1"/>
+        <TextBox x:Name="Speed_Copy" HorizontalAlignment="Left" Height="23" Margin="73,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="46" TextChanged="TextBox_TextChanged_5" RenderTransformOrigin="0.5,1.826" Text="0" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="73,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-1.156,-2.882" Height="20"><Run Text="Haste"/><LineBreak/><Run/></TextBlock>
+        <CheckBox x:Name="two" Content="Two breakers&#xD;&#xA;" HorizontalAlignment="Left" Margin="132,147,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

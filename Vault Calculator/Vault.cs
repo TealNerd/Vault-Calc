@@ -35,56 +35,84 @@ namespace Vault_Calculator
             return (_x < _y) ? (_layer / _x) + _layer + ((_checkDouble) ? 1 : 0) : _layer;
         }
 
-        public float X_time(int speed)
+        public float X_time(int speed, int haste, bool two)
         {
             float obi = 9.375f;
 
             switch (speed)
             {
                 case 1:
-                    obi /= 1.3f;
+                    obi = 7.25f;
                     break;
                 case 2:
-                    obi /= 1.69f;
+                    obi = 5.55f;
                     break;
                 case 3:
-                    obi /= 2.20f;
+                    obi = 4.3f;
                     break;
                 case 4:
-                    obi /= 2.86f;
+                    obi = 3.3f;
                     break;
                 case 5:
-                    obi /= 3.71f;
+                    obi = 2.55f;
                     break;
             }
 
-            return 1800 * obi * X_layer() / 60;
+            switch (haste)
+            {
+                case 1:
+                    obi *= 0.8f;
+                    break;
+                case 2:
+                    obi *= 0.6f;
+                    break;
+            }
+            int xo = 0;
+            if (two)
+                xo = (X_layer() / 4) * 6;
+            else
+                xo = (X_layer() / 5) * 6;
+            return 1800 * obi * xo / 60;
         }
 
-        public float Y_time(int speed)
+        public float Y_time(int speed, int haste, bool two)
         {
             float obi = 9.375f;
 
             switch (speed)
             {
                 case 1:
-                    obi /= 1.3f;
+                    obi = 7.25f;
                     break;
                 case 2:
-                    obi /= 1.69f;
+                    obi = 5.55f;
                     break;
                 case 3:
-                    obi /= 2.20f;
+                    obi = 4.3f;
                     break;
                 case 4:
-                    obi /= 2.86f;
+                    obi = 3.3f;
                     break;
                 case 5:
-                    obi /= 3.71f;
+                    obi = 2.55f;
                     break;
             }
 
-            return 1800 * obi * Y_layer() / 60;
+            switch (haste)
+            {
+                case 1:
+                    obi *= 0.8f;
+                    break;
+                case 2:
+                    obi *= 0.6f;
+                    break;
+            }
+            
+            float op = 1800 * obi * Y_layer() / 60;
+            if(two)
+                return op / 2;
+            else
+                return op;
         }
     }
 }

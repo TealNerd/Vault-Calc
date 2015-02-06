@@ -11,3 +11,19 @@ c:\users\gabe\documents\visual studio 2013\Projects\Vault Calculator\Vault Calcu
 c:\users\gabe\documents\visual studio 2013\Projects\Vault Calculator\Vault Calculator\obj\Debug\Vault Calculator.csproj.GenerateResource.Cache
 c:\users\gabe\documents\visual studio 2013\Projects\Vault Calculator\Vault Calculator\obj\Debug\Vault Calculator.exe
 c:\users\gabe\documents\visual studio 2013\Projects\Vault Calculator\Vault Calculator\obj\Debug\Vault Calculator.pdb
+F:\Vault-Calc-master\Vault-Calc-master\Vault Calculator\bin\Debug\Vault Calculator.exe.config
+F:\Vault-Calc-master\Vault-Calc-master\Vault Calculator\obj\Debug\Vault Calculator.exe
+F:\Vault-Calc-master\Vault-Calc-master\Vault Calculator\obj\Debug\Vault Calculator.pdb
+C:\Users\Jacob\Documents\Visual Studio 2013\Projects\Vault Calc\Vault Calculator\bin\Debug\Vault Calculator.exe.config
+C:\Users\Jacob\Documents\Visual Studio 2013\Projects\Vault Calc\Vault Calculator\obj\Debug\Vault Calculator.exe
+C:\Users\Jacob\Documents\Visual Studio 2013\Projects\Vault Calc\Vault Calculator\obj\Debug\Vault Calculator.pdb
+C:\Users\Jacob\Documents\Visual Studio 2013\Projects\Vault Calc\Vault Calculator\bin\Debug\Vault Calculator.exe
+C:\Users\Jacob\Documents\Visual Studio 2013\Projects\Vault Calc\Vault Calculator\bin\Debug\Vault Calculator.pdb
+C:\Users\Jacob\Documents\Visual Studio 2013\Projects\Vault Calc\Vault Calculator\obj\Debug\Vault Calculator.csprojResolveAssemblyReference.cache
+C:\Users\Jacob\Documents\Visual Studio 2013\Projects\Vault Calc\Vault Calculator\obj\Debug\MainWindow.baml
+C:\Users\Jacob\Documents\Visual Studio 2013\Projects\Vault Calc\Vault Calculator\obj\Debug\MainWindow.g.cs
+C:\Users\Jacob\Documents\Visual Studio 2013\Projects\Vault Calc\Vault Calculator\obj\Debug\App.g.cs
+C:\Users\Jacob\Documents\Visual Studio 2013\Projects\Vault Calc\Vault Calculator\obj\Debug\Vault Calculator_MarkupCompile.cache
+C:\Users\Jacob\Documents\Visual Studio 2013\Projects\Vault Calc\Vault Calculator\obj\Debug\Vault Calculator.g.resources
+C:\Users\Jacob\Documents\Visual Studio 2013\Projects\Vault Calc\Vault Calculator\obj\Debug\Vault_Calculator.Properties.Resources.resources
+C:\Users\Jacob\Documents\Visual Studio 2013\Projects\Vault Calc\Vault Calculator\obj\Debug\Vault Calculator.csproj.GenerateResource.Cache

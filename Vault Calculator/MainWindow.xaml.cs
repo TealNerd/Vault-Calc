@@ -31,6 +31,7 @@ namespace Vault_Calculator
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             int o = 0;
+            int h = 0;
             int.TryParse(Layer.Text, out o);
             v.layer = o;
 
@@ -40,8 +41,9 @@ namespace Vault_Calculator
 
             Cost.Text = Convert.ToString(v.Cost());
             int.TryParse(Speed.Text, out o);
-            X_Time.Text = Convert.ToString(v.X_time(o));
-            Y_Time.Text = Convert.ToString(v.Y_time(o));
+            int.TryParse(Speed_Copy.Text, out h);
+            X_Time.Text = Convert.ToString(v.X_time(o, h, two.IsChecked.Value));
+            Y_Time.Text = Convert.ToString(v.Y_time(o, h, two.IsChecked.Value));
             X.Text = Convert.ToString(v.X_layer());
             Y.Text = Convert.ToString(v.Y_layer());
         }
